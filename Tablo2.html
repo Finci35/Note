@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table border="1">
+            <caption>Ülke Nüfusları</caption> <!--Tablonun başlığı-->
+            <thead>
+                <tr><th>Ülke</th><th>Nüfus</th></tr> <!--Tablonun ilk satırı. "th" tagının içindeki yazı koyu görünür.-->
+            </thead>
+            <tbody> <!--Tablonun gövdesi-->
+                <tr><td>Türkiye</td><td>82</td></tr>
+                <tr><td>Yunanistan</td><td>12</td></tr>
+                <tr><td>Bulgaristan</td><td>9</td></tr>
+            </tbody>
+            <tfoot> <!--Tablonun son satırı-->
+                <tr><td>Toplam Nüfus</td><td>103</td></tr>
+                <tr><td colspan="2">Toplam Nüfus: 103</td></tr>
+                <tr><td colspan="2" rowspan="2">Toplam Nüfus: 103</td></tr>
+            <!--"colspan" yanyana hücreleri birleştirir.
+                "rowspan" altalta hücreleri birleştirir.-->
+            </tfoot>
+<!--"caption", "thead", "tbody", "tfoot" gibi etiketleri css kodları ile
+    herbirini ayrı ayrı biçimlendirerek daha güzel görünmelerini 
+    sağlayabilmek için kullanılır.-->
+        </table>
+    </body>
+</html>
