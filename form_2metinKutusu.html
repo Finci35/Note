@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu:</h1>
+        <form name="kayit" action="kayit.php" method="GET"> <!--Form oluşturmak için <form> tagı kullanılır.
+        Bu tagın "name" özelliği formu isim verilmesini sağlar.
+        "action" özelliği ile formda girilen bilgilerin hangi sayfaya gönderileceği belirlenir.
+        "method" girilen verilerin gizli mi yoksa açık mı gönderileceğini belirler.
+        GET methodu açık, POST methodu gizli gönderir. -->
+
+            Ad Soyad: 
+            <input type="text" name="adsoyad" id="idadsoyad" size="20" maxlength="30" required>
+             <!--Bir form elemanı yerleştirmek için <input> kullanılır.
+            type: verinin tipi
+            name: verinin ismi
+            id:
+            size: metin kutusunun kaç karakter genişliğinde görüneceğini belirler
+            maxlength: Kullanıcının en fazla kaç karakter girebileceğini belirler.
+            Yukarıdaki örnekte kullanıcı 30 karakter girebilir ama metin kutusunda 20 karakter görünür. 
+            required: Bu metin kutusunun boş bırakılamayacağını belirtir.-->
+            <br>
+            <input type="submit" value="Tamam">
+            <!--Girilen verileri onaylamak, göndermek için kullanılır. Üzerindeki metni belirlemek için value kullanılır.-->
+            <input type="reset" value="Temizle">
+            <!--Girilen verileri silmek için kullanılır. Üzerindeki metni belirlemek için value kullanılır.-->
+        </form>
+    </body>
+</html>

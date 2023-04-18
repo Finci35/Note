@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu:</h1>
+        <form name="kayit" action="kayit.php" method="GET"> 
+<!--Girilen verileri hizalamanın en kolay yolu tablo eklemektir.-->
+            <table>
+                <tr><td>Ad Soyad:</td><td><input type="text" name="adsoyad" id="idadsoyad" required></td></tr>
+                <tr><td>Email:</td><td><input type="email" name="email" id="email" required></td></tr>
+                <tr><td>Web Sitesi:</td><td><input type="url" name="adres" id="adres"></td></tr>
+                <tr><td>Yaşınız:</td><td><input type="number" name="yas" id="yas" required></td></tr>
+                <tr><td></td><td><input type="submit"><input type="reset"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>
