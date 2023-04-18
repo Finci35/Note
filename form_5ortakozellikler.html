@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+<!--Bir form elemanı yerleştirmek için <input> kullanılır.
+            type: verinin tipi
+            name: verinin ismi
+            id: form elemanının tanım kodu. css veya JS kodu uygulamak için kullanılır.
+            size: metin kutusunun kaç karakter genişliğinde görüneceğini belirler
+            value: form elemanının değeri
+            placeholder: form elemanında bir açıklama metni görünmesini sağlar.
+            autofocus: sayfa açıldığında fare imlecinin form elemanını aktif etmesini sağlar.
+            autocomplete: formlara girilen verilerin daha önce girilen veriler dikkate alınarak tamamlanmasını sağlar.
+            required: form elemanının mutlaka doldurulması gerektiğini belirtir. Boş bırakılırsa hata mesajı alınır.
+            disable: form elemanının pasif hale getirilmesini ve kullanılmamasını sağlar.
+            maxlength: Kullanıcının en fazla kaç karakter girebileceğini belirler.
+            Yukarıdaki örnekte kullanıcı 30 karakter girebilir ama metin kutusunda 20 karakter görünür. 
+            required: Bu metin kutusunun boş bırakılamayacağını belirtir.-->
+        <h1>Form Özellikleri</h1>
+        <form autocomplete="on">
+            Ad Soyad: <input type="text" size="15" maxlength="50"
+            required name="adsoyad" id="adsoyad"
+            autofocus placeholder="ad soyad yaz"
+            disabled>
+
+        </form>
+    </body>
+</html>
