@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+                color: red;
+            }
+
+            h1{
+                color: blue;
+            }
+            
+            #ilk{
+                color: aqua;
+            }
+
+            #ikinci{
+                color: blueviolet;
+            }
+
+            .mavi{
+                color: blue;
+            }
+
+            .yesil{
+                color: green;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <h1 class="yesil">Başlık</h1>
+        <p class="yesil" id="ilk">Merhaba ......</p> <!--class uygulamamıza rağmen id etkinliğini korudu. Çünkü id daha önceliklidir.-->
+        <p id="ikinci">Nasılsınız</p>
+    </body>
+</html>
+
+<!-- *      : herşey seçilecek.
+    p       : p tagı seçilecek.
+    #ilk    : id değeri #ilk olan seçilecek.
+    .son    : class değeri .son olan seçilecek.
+    h1.egik : class değeri .egik olan h1 etiketleri seçilecek.
+    p strong : p tagı içindeki tüm strong tagları saçilecek.
+    nav #buton : nav tagı içindeki id değeri #buton olan tüm elemanlar saçilecek.
+    h1,h2,h3,h4,h5,h6 : h1-h6 arasındaki tüm taglar seçilecek.-->
